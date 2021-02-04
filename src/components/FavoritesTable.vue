@@ -4,7 +4,7 @@
         <v-simple-table
         :dense="dense"
         :fixed-header="fixedHeader"
-        :height="height"
+        :height="625"
         >
         <template v-slot:default>
             <tbody>
@@ -33,8 +33,7 @@
     },
     data: () => ({
       dense: false,
-      fixedHeader: false,
-      height: 625,
+      fixedHeader: false
     }),
     methods: {
       displayStockData(key){
