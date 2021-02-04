@@ -1,4 +1,4 @@
-# demo-app
+# stocks-app
 
 ## Project setup
 ```
